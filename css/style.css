@@ -1,0 +1,85 @@
+body {
+  margin-top: 50px;
+  padding: -5;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  font-weight: 600;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 5);
+}
+
+.navbar-brand {
+  font-family: Viga;
+  font-size: 32px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 5);
+}
+
+#masthead {
+  height: auto;
+  min-height: 500px;
+  background-image: url("https://images.wallpaperscraft.com/image/coffee_cup_wooden_surface_106291_1920x1080.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#masthead1 {
+  height: auto;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(gray 1%, black 100%);
+}
+
+.card {
+  background-color: transparent;
+}
+
+#card {
+  font-family: Lobster;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 5);
+}
+
+.d-block {
+  height: 400px;
+  object-fit: cover;
+}
+
+#container {
+  box-shadow: 7px 0px 10px rgba(0, 0, 0, 0.8),
+    -7px -7px 10px rgba(0, 0, 0, 0.75);
+  background-image: linear-gradient(transparent 1%, black 100%);
+}
+
+#container1 {
+  box-shadow: 7px 0px 10px rgba(0, 0, 0, 0.8), -7px 0px 10px rgba(0, 0, 0, 0.75);
+  background-image: linear-gradient(black 0%, gray 100%);
+}
+
+#portfolio hr,
+#cervice hr,
+#contact hr {
+  border-top: 3px solid #fff8dc;
+  width: 300px;
+}
+
+#coba:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #000;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
